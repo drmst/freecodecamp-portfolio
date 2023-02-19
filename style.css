@@ -1,0 +1,88 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    
+
+}
+
+
+
+
+nav{
+    height: 50px;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.156);
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+
+.nav--left li {
+    display: inline;
+   
+}
+
+.nav--left a{
+    margin:auto 5px ;
+    padding: 5px;
+    font-size: 16px;
+    border: solid black 1px;
+    border-radius: 5px;
+    
+}
+
+.my-works{
+    background-color: grey;
+}
+
+.my-web-pages{
+    background-color: darkcyan;
+}
+
+.my-goals{
+    background-color: lightcyan;
+}
+
+.nav--right a{
+    font-size: 20px;
+    font-weight:600;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid blue 0.2px ;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.works{
+    width: 100vw;
+    height:100vh;
+  
+    background-color: grey;
+}
+
+.samples{
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: darkcyan;
+}
+
+.goals{
+    width: 100vw;
+    height: 100vh;
+ 
+    background-color:lightsteelblue;
+}
+
+
+
+
