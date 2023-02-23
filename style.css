@@ -69,13 +69,17 @@ nav {
 
 .works {
     height: 100vh;
-    padding: 5% 100px;
+    padding: 10vh 100px;
     background-color: #E3FDFD;
     font-size: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.about{
+    width: 90vh;
+    height: 60vh;
 }
 
 span {
@@ -93,8 +97,8 @@ p {
 .profile {
     margin-top: min(20px, 5%);
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 30vh;
+    width: 30vh;
     object-fit: cover;
 }
 
@@ -275,3 +279,4 @@ p {
         align-items: center;
     }
 }
+
