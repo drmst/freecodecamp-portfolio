@@ -68,8 +68,7 @@ nav {
 }
 
 .works {
-    height: 100vh;
-    padding: 10vh 100px;
+    padding: 5% 100px  20px  100px;
     background-color: #E3FDFD;
     font-size: 26px;
     display: flex;
@@ -77,9 +76,12 @@ nav {
     justify-content: center;
     flex-direction: column;
 }
-.about{
+
+.about {
+    margin: 20px;
     width: 90vh;
-    height: 60vh;
+    border-radius: 30px;
+    background-color: #00000052;
 }
 
 span {
@@ -95,7 +97,8 @@ p {
 }
 
 .profile {
-    margin-top: min(20px, 5%);
+    
+    margin-top: 8%;
     border-radius: 50%;
     height: 30vh;
     width: 30vh;
@@ -182,7 +185,8 @@ p {
     flex-wrap: wrap;
     background-color: #A6E3E9;
     justify-content: space-around;
-    padding: 20px 200px;
+    padding: 50px 200px;
+   
 
 }
 
@@ -202,7 +206,7 @@ p {
 }
 
 .goals {
-    height: 100vh;
+    padding: 30px 10px;
     background-color: #71C9CE;
     display: flex;
     align-items: center;
@@ -223,6 +227,7 @@ p {
 
 .hedefler {
     font-size: 24px;
+    max-width:300px;
 }
 
 .goal__svg {
@@ -241,8 +246,8 @@ p {
     background-color: #bbbbbb;
 }
 
-@media screen and (max-width: 1000px){
-    .samples{
+@media screen and (max-width: 1000px) {
+    .samples {
         display: flex;
         flex-wrap: wrap;
     }
@@ -263,13 +268,14 @@ p {
         object-fit: cover;
         border-radius: 15px;
     }
-    .goals{
+
+    .goals {
         display: flex;
         flex-wrap: wrap;
     }
 
     .goal {
-       
+
         width: 40%;
         border: solid 1px black;
         margin: 10px 20px;
@@ -279,4 +285,3 @@ p {
         align-items: center;
     }
 }
-
